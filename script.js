@@ -29,6 +29,4 @@ quizForm.addEventListener('submit', function(event) {
   }
   
   // Display the user's score
-  const resultMessage = `You scored ${score} out of ${Object.keys(correctAnswers).length}!`;
-  alert(resultMessage);
-});
+  const resultMessage = `You scored ${score} out of ${Object.keys(correctAnswers).length
